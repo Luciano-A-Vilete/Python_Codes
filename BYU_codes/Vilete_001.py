@@ -11,3 +11,4 @@ elif fav_color.lower() == 'Blue':
     print('It is wonderful to know that your favorite color is {}, the same fav color as my wife.' .format(fav_color))
 else:
     print(f'It is wonderful to know that your favorite color is {fav_color}')
+    
