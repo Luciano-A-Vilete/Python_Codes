@@ -17,7 +17,7 @@ def verify_card_number(card_number):
     return total % 10 == 0
 
 def main():
-    card_number = input('Insert your card number: (ex: xxxx-xxxx-xxxx-xxxx): ')
+    card_number = input('Insert your card number:\n(ex: xxxx-xxxx-xxxx-xxxx):\n')
     card_translation = str.maketrans({'-': '', ' ': ''})
     translated_card_number = card_number.translate(card_translation)
 
